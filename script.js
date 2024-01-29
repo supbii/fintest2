@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.addEventListener('click', (event) => {
         const offsetX = 120;
-        const offsetY = 670;
+        const offsetY = 770;
     
         pangContainer.style.left = (event.pageX - offsetX) + 'px';
         pangContainer.style.top = (event.pageY - offsetY) + 'px';
