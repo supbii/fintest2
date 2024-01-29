@@ -652,6 +652,7 @@ document.addEventListener('DOMContentLoaded', function() {
         voPlay1.style.display = 'block';
         voPlay2.style.display = 'none';
         voStandby.style.display = 'none';
+        voMusic.play();
         voMusic.muted = false;
         voTimerId = setTimeout(switchToVoPlay2, play1Duration);
         voShadow.style.display = 'block';
